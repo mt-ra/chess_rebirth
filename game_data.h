@@ -1,7 +1,7 @@
+#include "board.h"
+
 #ifndef GAME_DATA_H
 #define GAME_DATA_H
-
-#include "board.h"
 
 class GameData {
 private:

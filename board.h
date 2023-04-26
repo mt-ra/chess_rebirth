@@ -1,10 +1,9 @@
-#ifndef BOARD_H
-#define BOARD_H
-
 #include "tile.h"
 #define MAX_ROW 100
 #define MAX_COL 100
 
+#ifndef BOARD_H
+#define BOARD_H
 
 class Board {
 private:
