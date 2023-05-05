@@ -1,0 +1,19 @@
+{
+    "viewport" : 
+    {
+        "top_left_corner_coordinates" : [0,0],
+        "bottom_right_corner_coordinates" : [8,8]
+    },
+
+    "white_piece_initial_positions" : 
+    [
+        ["rook", 0, 0],
+        ["pawn", 0, 0]
+    ],
+
+    "black_piece_initial_positions" : 
+    [
+        ["rook", 0, 0],
+        ["pawn", 0, 0]
+    ]
+}

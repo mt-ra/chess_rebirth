@@ -1,0 +1,184 @@
+[
+    {
+        "name": "king",
+        "symbol": "K",
+
+        "direction-moves" : 
+        [
+            {
+                "move_in_direction" :       "north",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            },
+            {
+                "move_in_direction" :       "northeast",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            },
+            {
+                "move_in_direction" :       "east",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            },
+            {
+                "move_in_direction" :       "southeast",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            },
+            {
+                "move_in_direction" :       "south",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            },
+            {
+                "move_in_direction" :       "southwest",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            },
+            {
+                "move_in_direction" :       "west",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            },
+            {
+                "move_in_direction" :       "northwest",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1]
+            }
+        ],
+        
+        "teleport-moves" : 
+        [
+        ]
+    },
+    {
+        "name": "knight",
+        "symbol": "N",
+
+        "direction-moves" : 
+        [
+        ],
+        
+        "teleport-moves" : 
+        [
+            {
+                "capture_piece_at" :    [2,1],
+                "move_to" :             [2,1],
+                "must_capture_to_move" :    false
+            },
+            {
+                "capture_piece_at" :    [2,-1],
+                "move_to" :             [2,-1],
+                "must_capture_to_move" :    false
+            },
+            {
+                "capture_piece_at" :    [1,2],
+                "move_to" :             [1,2],
+                "must_capture_to_move" :    false
+            },
+            {
+                "capture_piece_at" :    [1,-2],
+                "move_to" :             [1,-2],
+                "must_capture_to_move" :    false
+            },
+            {
+                "capture_piece_at" :    [-2,1],
+                "move_to" :             [-2,1],
+                "must_capture_to_move" :    false
+            },
+            {
+                "capture_piece_at" :    [-2,-1],
+                "move_to" :             [-2,-1],
+                "must_capture_to_move" :    false
+            },
+            {
+                "capture_piece_at" :    [-1,2],
+                "move_to" :             [-1,2],
+                "must_capture_to_move" :    false
+            },
+            {
+                "capture_piece_at" :    [-1,-2],
+                "move_to" :             [-1,-2],
+                "must_capture_to_move" :    false
+            }
+        ]
+    },
+    {
+        "name": "pawn",
+        "symbol": "P",
+
+        "direction-moves" : 
+        [
+            {
+                "move_in_direction" :   "north",
+                "valid_move_distances" : [2]
+            }
+        ],
+        
+        "teleport-moves" : 
+        [
+            {
+                "capture_piece_at" :    [1,1],
+                "move_to" :             [1,1],
+                "must_capture_to_move" :    true
+            },
+            {
+                "capture_piece_at" :    [1,-1],
+                "move_to" :             [1,-1],
+                "must_capture_to_move" :    true
+            }
+        ]
+    },
+    {
+        "name": "queen",
+        "symbol": "Q",
+
+        "direction-moves" : 
+        [
+            {
+                "move_in_direction" :       "north",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            },
+            {
+                "move_in_direction" :       "northeast",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            },
+            {
+                "move_in_direction" :       "east",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            },
+            {
+                "move_in_direction" :       "southeast",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            },
+            {
+                "move_in_direction" :       "south",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            },
+            {
+                "move_in_direction" :       "southwest",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            },
+            {
+                "move_in_direction" :       "west",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            },
+            {
+                "move_in_direction" :       "northwest",
+                "must_capture_to_move" :    false,
+                "valid_move_distances" :           [1,2,3,4,5,6,7]
+            }
+        ],
+        
+        "teleport-moves" : 
+        [
+        ]
+    }
+]

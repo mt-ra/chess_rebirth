@@ -15,3 +15,7 @@ int GameData::get_white_score() {
 int GameData::get_black_score() {
     return black_score;
 }
+
+int GameData::get_turn() {
+    return turn;
+}
