@@ -1,5 +1,5 @@
 #include <vector>
-#include "structs.h"
+#include "../structs/structs.h"
 #include "move.h"
 
 #ifndef DIRMOVE

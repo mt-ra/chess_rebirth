@@ -1,7 +1,7 @@
 #include <vector>
 #include <string>
-#include "direction_move.h"
-#include "teleport_move.h"
+#include "../moves/direction_move.h"
+#include "../moves/teleport_move.h"
 
 #ifndef PIECE_TYPE
 #define PIECE_TYPE

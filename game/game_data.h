@@ -1,5 +1,5 @@
-#include "board.h"
-#include "piece_type.h"
+#include "../chessboard/board.h"
+#include "../pieces/piece_type.h"
 #include <vector>
 
 #ifndef GAME_DATA_H
@@ -15,7 +15,7 @@ private:
 public:
     GameData();
 
-    int set_piece_types(std::vector<PieceType>);
+    void set_piece_types(std::vector<PieceType>);
 
     int get_white_score();
     int get_black_score();

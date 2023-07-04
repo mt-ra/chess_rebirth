@@ -7,7 +7,7 @@
 
 class Board {
 private:
-    Tile map[MAX_ROW][MAX_COL];
+    Tile* map[MAX_ROW][MAX_COL];
 
 public:
     Board();
