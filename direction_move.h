@@ -1,14 +1,16 @@
 #include <vector>
+#include "structs.h"
+#include "move.h"
 
 #ifndef DIRMOVE
 #define DIRMOVE
 
 class DirectionMove : public Move {
 private:
-    int move_idx;
+    displacement_vector move_direction;
+    std::vector<int> valid_move_distances;
 public:
-    DirectionMove(int);
-    int get_move_idx();
+    DirectionMove();
 };
 
 #endif

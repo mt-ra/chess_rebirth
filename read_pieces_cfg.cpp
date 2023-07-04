@@ -7,9 +7,9 @@
 #include <jsoncpp/json/json.h>
 
 std::vector<PieceType> read_pieces_cfg() {
-    std::vector<PieceType> pieces;
+    std::vector<PieceType> piece_types;
 
     Json::Reader reader;
-    
 
+    return piece_types;
 }

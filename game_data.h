@@ -14,6 +14,9 @@ private:
     int turn;
 public:
     GameData();
+
+    int set_piece_types(std::vector<PieceType>);
+
     int get_white_score();
     int get_black_score();
     int get_turn();

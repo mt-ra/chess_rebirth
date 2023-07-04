@@ -8,6 +8,10 @@ GameData::GameData() {
     board = &new_board;
 }
 
+int GameData::set_piece_types(std::vector<PieceType> pieces) {
+
+}
+
 int GameData::get_white_score() {
     return white_score;
 }
